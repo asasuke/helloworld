@@ -1,1 +1,1 @@
-web:    java -jar build/libs/asasuke_helloworld-0.1.jar
+web:    java -jar build/libs/asasuke-helloworld-0.1.jar
