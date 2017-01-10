@@ -8,8 +8,8 @@ def defaultEncoding = 'UTF-8'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-group = 'com.herokuapp.asasuke_helloworld'
-archivesBaseName = 'asasuke_helloworld'
+group = 'asasuke-helloworld'
+archivesBaseName = 'asasuke-helloworld'
 version = '0.1'
 
 repositories {
@@ -36,7 +36,7 @@ jar {
 }
 
 task wrapper(type: Wrapper) {
-  gradleVersion = '3.3'
+  gradleVersion = '2.14.1'
 }
 
 task stage {
